@@ -1,2 +1,2 @@
-hello=function
-//中国
+// hello=function
+// //中国
