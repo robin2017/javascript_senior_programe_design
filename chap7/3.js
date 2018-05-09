@@ -12,3 +12,8 @@ function createComparsionFunction(propertyName) {
         }
     }
 }
+var compareNames =  createComparsionFunction("name") //外部函数调用时/内部函数创建时
+//外部函数调用后
+var result = compareNames({name:"robin"},{name:"peter"})//内部函数调用时
+//内部函数调用后
+compareNames = null; //内部函数赋值null
