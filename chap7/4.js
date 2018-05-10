@@ -8,4 +8,4 @@ function createFunctions() { //外部createFunctions函数
     return result;
 }
 var funcs = createFunctions();
-console.log(funcs[0]());
+console.log(funcs[0]());//10
