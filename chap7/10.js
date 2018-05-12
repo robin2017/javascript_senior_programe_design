@@ -1,7 +1,7 @@
-function Student(val){
+function Student(val) {
     this.name = val;
 }
-function Teacher(val){
+function Teacher(val) {
     var name = val;
 }
 var s = new Student("robin");
