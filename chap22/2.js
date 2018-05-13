@@ -1,4 +1,4 @@
-var person = {name:"robin"};
+var person = {name: "robin"};
 console.log(Object.isExtensible(person));//true
 //不可扩展执行
 Object.preventExtensions(person);
