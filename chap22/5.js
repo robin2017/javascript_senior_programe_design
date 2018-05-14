@@ -22,6 +22,7 @@ function chunk(array, fn, time, context) {
     }, time)
 }
 function doOneByOne() {
-    chunk(data, printValue,1)
+    chunk(data, printValue, 1)
 }
 doOneByOne();
+
